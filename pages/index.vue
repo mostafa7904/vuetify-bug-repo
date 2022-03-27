@@ -15,7 +15,7 @@
           V-card-subtitle content
         </v-card-subtitle>
         <v-card-text class="text-right">
-          <!-- Comment this and see all the duplicate contents disapear -->
+          <!-- Comment this link or remove the href and link attrs from v-card and see all the duplicate contents disapear -->
           <a
             class="text-decoration-none text--primary"
             href="https://example.com"
