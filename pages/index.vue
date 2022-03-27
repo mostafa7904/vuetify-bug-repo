@@ -12,17 +12,18 @@
       >
         <v-img contain max-height="250" src="/test.avif"> </v-img>
         <v-card-subtitle class="text-right">
-          <v-chip color="primary" class="ml-2" small> # Tutorial </v-chip>
-          <v-chip color="primary" small> # Blog </v-chip>
+          V-card-subtitle content
         </v-card-subtitle>
         <v-card-text class="text-right">
+          <!-- Comment this and see all the duplicate contents disapear -->
           <a
-            class="text-decoration-none blog-post-title text--primary"
+            class="text-decoration-none text--primary"
             href="https://example.com"
           >
-            The link
+            The link in v-card-text
           </a>
         </v-card-text>
+        <v-card-actions> V-card-actions contents </v-card-actions>
       </v-card>
     </v-col>
   </v-row>
